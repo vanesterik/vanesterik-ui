@@ -1,0 +1,30 @@
+{
+  "name": "vanesterik-ui",
+  "version": "1.0.0",
+  "description": "UI kit for vanesterik apps",
+  "license": "MIT",
+  "main": "index.ts",
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0"
+  },
+  "devDependencies": {
+    "@ladle/react": "^2.17.2",
+    "@types/react": "^18.2.21",
+    "autoprefixer": "^10.4.15",
+    "eslint-config-custom": "github:vanesterik/eslint-config-custom",
+    "eslint": "^8.48.0",
+    "postcss": "^8.4.29",
+    "prettier-config": "github:vanesterik/prettier-config",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3.3.3",
+    "typescript": "5.2.2",
+    "vitest": "^0.34.3"
+  },
+  "scripts": {
+    "dev": "ladle serve",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "echo \"Warn: no tests specified\"",
+    "typecheck": "tsc --noEmit"
+  }
+}
