@@ -1,0 +1,119 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "button--set": {
+      "name": "Set",
+      "levels": [
+        "Button"
+      ],
+      "locStart": 13,
+      "locEnd": 24,
+      "filePath": "stories/Button.stories.tsx",
+      "meta": {}
+    },
+    "card--component": {
+      "name": "Component",
+      "levels": [
+        "Card"
+      ],
+      "locStart": 11,
+      "locEnd": 11,
+      "filePath": "stories/Card.stories.tsx",
+      "meta": {}
+    },
+    "color--palette": {
+      "name": "Palette",
+      "levels": [
+        "Color"
+      ],
+      "locStart": 3,
+      "locEnd": 34,
+      "filePath": "stories/Color.stories.tsx",
+      "meta": {}
+    },
+    "container--component": {
+      "name": "Component",
+      "levels": [
+        "Container"
+      ],
+      "locStart": 7,
+      "locEnd": 11,
+      "filePath": "stories/Container.stories.tsx",
+      "meta": {}
+    },
+    "dropdown--component": {
+      "name": "Component",
+      "levels": [
+        "Dropdown"
+      ],
+      "locStart": 6,
+      "locEnd": 29,
+      "filePath": "stories/Dropdown.stories.tsx",
+      "meta": {}
+    },
+    "font-family--set": {
+      "name": "Set",
+      "levels": [
+        "Font family"
+      ],
+      "locStart": 7,
+      "locEnd": 19,
+      "filePath": "stories/FontFamily.stories.tsx",
+      "meta": {}
+    },
+    "footer--component": {
+      "name": "Component",
+      "levels": [
+        "Footer"
+      ],
+      "locStart": 7,
+      "locEnd": 11,
+      "filePath": "stories/Footer.stories.tsx",
+      "meta": {}
+    },
+    "header--component": {
+      "name": "Component",
+      "levels": [
+        "Header"
+      ],
+      "locStart": 7,
+      "locEnd": 11,
+      "filePath": "stories/Header.stories.tsx",
+      "meta": {}
+    },
+    "icon--set": {
+      "name": "Set",
+      "levels": [
+        "Icon"
+      ],
+      "locStart": 7,
+      "locEnd": 22,
+      "filePath": "stories/Icon.stories.tsx",
+      "meta": {}
+    },
+    "main--component": {
+      "name": "Component",
+      "levels": [
+        "Main"
+      ],
+      "locStart": 11,
+      "locEnd": 17,
+      "filePath": "stories/Main.stories.tsx",
+      "meta": {}
+    },
+    "stack--component": {
+      "name": "Component",
+      "levels": [
+        "Stack"
+      ],
+      "locStart": 9,
+      "locEnd": 18,
+      "filePath": "stories/Stack.stories.tsx",
+      "meta": {}
+    }
+  }
+}
