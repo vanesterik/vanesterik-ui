@@ -10,8 +10,8 @@
       "levels": [
         "Button"
       ],
-      "locStart": 13,
-      "locEnd": 24,
+      "locStart": 14,
+      "locEnd": 25,
       "filePath": "stories/Button.stories.tsx",
       "meta": {}
     },
@@ -20,8 +20,8 @@
       "levels": [
         "Card"
       ],
-      "locStart": 11,
-      "locEnd": 11,
+      "locStart": 13,
+      "locEnd": 13,
       "filePath": "stories/Card.stories.tsx",
       "meta": {}
     },
@@ -90,9 +90,39 @@
       "levels": [
         "Icon"
       ],
-      "locStart": 7,
-      "locEnd": 22,
+      "locStart": 8,
+      "locEnd": 23,
       "filePath": "stories/Icon.stories.tsx",
+      "meta": {}
+    },
+    "input--input": {
+      "name": "Input",
+      "levels": [
+        "Input"
+      ],
+      "locStart": 7,
+      "locEnd": 13,
+      "filePath": "stories/Input.stories.tsx",
+      "meta": {}
+    },
+    "input--textarea": {
+      "name": "Textarea",
+      "levels": [
+        "Input"
+      ],
+      "locStart": 15,
+      "locEnd": 22,
+      "filePath": "stories/Input.stories.tsx",
+      "meta": {}
+    },
+    "layout--component": {
+      "name": "Component",
+      "levels": [
+        "Layout"
+      ],
+      "locStart": 7,
+      "locEnd": 9,
+      "filePath": "stories/Layout.stories.tsx",
       "meta": {}
     },
     "main--component": {
@@ -110,8 +140,8 @@
       "levels": [
         "Stack"
       ],
-      "locStart": 9,
-      "locEnd": 18,
+      "locStart": 8,
+      "locEnd": 17,
       "filePath": "stories/Stack.stories.tsx",
       "meta": {}
     }
