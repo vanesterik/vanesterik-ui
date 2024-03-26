@@ -14,6 +14,9 @@ export const button = cva(
     'rounded',
     'text-xs',
     'uppercase',
+    'focus:outline',
+    'focus:outline-offset-2',
+    'focus:outline-secondary-500',
   ],
   {
     variants: {

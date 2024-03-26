@@ -1,15 +1,15 @@
-import clsx from 'clsx'
+import { cx } from 'class-variance-authority'
 import { PropsWithChildren } from 'react'
 
 import { card } from '../lib/card'
-import { container } from '../lib/container'
 import { footer } from '../lib/footer'
 import { header } from '../lib/header'
 import { main } from '../lib/main'
 import { text } from '../lib/text'
+import { layout } from '../lib/layout'
 
 export const Component = () => (
-  <div className={container()}>
+  <div className={layout()}>
     <Card className={header()}>Header</Card>
     <Card className={main()}>Main</Card>
     <Card className={footer()}>Footer</Card>
@@ -20,7 +20,7 @@ const Card = ({
   children,
   className,
 }: PropsWithChildren<{ className?: string }>) => (
-  <div className={clsx(card(), text({ intent: 'label' }), className)}>
+  <div className={cx(card(), text({ intent: 'label' }), className)}>
     {children}
   </div>
 )

@@ -1,7 +1,7 @@
-import clsx from 'clsx'
+import { cx } from 'class-variance-authority'
 
 export const Palette = () => (
-  <div className="grid grid-cols-5 gap-0.5">
+  <div className="grid grid-cols-5 gap-1.5">
     {[
       'bg-primary-50',
       'bg-primary-100',
@@ -24,7 +24,7 @@ export const Palette = () => (
       'bg-secondary-800',
       'bg-secondary-900',
     ].map((color) => (
-      <div className={clsx('pt-36 pb-3 px-3 rounded', color)} key={color}>
+      <div className={cx('pt-36 pb-3 px-3 rounded', color)} key={color}>
         <span className="bg-primary-900 font-mono p-0.5 text-white text-xs uppercase">
           {color.substring(3)}
         </span>

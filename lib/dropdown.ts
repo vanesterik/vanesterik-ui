@@ -5,7 +5,7 @@ export const dropdown = cva(['relative'])
 export const dropdownList = cva(
   [
     'absolute',
-    'mt-0.5',
+    'mt-1.5',
     'overflow-hidden',
     'rounded',
     'w-32',

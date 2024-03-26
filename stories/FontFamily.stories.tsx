@@ -1,11 +1,11 @@
-import clsx from 'clsx'
+import { cx } from 'class-variance-authority'
 import { PropsWithChildren } from 'react'
 
 import { card } from '../lib/card'
 import { text } from '../lib/text'
 
 export const Set = () => (
-  <div className="flex flex-col gap-0.5">
+  <div className="flex flex-col gap-1.5">
     <Card label="Heading">
       <span className="font-bold font-sans">Lausanne 700</span>
     </Card>
@@ -20,7 +20,7 @@ export const Set = () => (
 
 const Card = ({ children, label }: PropsWithChildren<{ label: string }>) => (
   <div className={card()}>
-    <div className={clsx('mb-3', text({ intent: 'label' }))}>{label}</div>
+    <div className={cx('mb-3', text({ intent: 'label' }))}>{label}</div>
     <div className={'text-3xl text-black dark:text-white'}>{children}</div>
   </div>
 )

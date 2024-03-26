@@ -1,6 +1,5 @@
 import type { Story } from '@ladle/react'
-import { VariantProps } from 'class-variance-authority'
-import clsx from 'clsx'
+import { VariantProps, cx } from 'class-variance-authority'
 
 import { card } from '../lib/card'
 import { stack } from '../lib/stack'
@@ -10,7 +9,7 @@ export const Component: Story<VariantProps<typeof stack>> = (props) => (
   <div className={stack(props)}>
     {Array.from(Array(3).keys()).map((index) => (
       <div
-        className={clsx(card(), text({ intent: 'label' }))}
+        className={cx(card(), text({ intent: 'label' }))}
         key={index}
       >{`Item ${index}`}</div>
     ))}
