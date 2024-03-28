@@ -6,7 +6,7 @@ export const button = cva(
     'flex-row',
     'font-mono',
     'font-normal',
-    'gap-x-0.5',
+    'gap-x-1.5',
     'h-8',
     'items-center',
     'pt-[1px]',
