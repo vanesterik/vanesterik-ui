@@ -1,4 +1,4 @@
-import { VariantProps } from 'class-variance-authority'
+import { VariantProps, cx } from 'class-variance-authority'
 
 import { card } from '../lib/card'
 import { icon } from '../lib/icon'
@@ -19,9 +19,13 @@ export const Set = () => (
       <div className={card()} key={name}>
         <div className={stack({ direction: 'row' })}>
           <div
-            className={icon({
-              name: name as VariantProps<typeof icon>['name'],
-            })}
+            className={cx(
+              icon({
+                name: name as VariantProps<typeof icon>['name'],
+              }),
+              'text-black',
+              'dark:text-white',
+            )}
           />
           <div className={text({ intent: 'label' })}>{name}</div>
         </div>
