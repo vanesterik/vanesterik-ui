@@ -20,7 +20,12 @@ Component.argTypes = {
   direction: {
     options: ['row', 'column'],
     control: { type: 'radio' },
-    defaultValue: 'row',
+    defaultValue: 'column',
+  },
+  items: {
+    options: ['start', 'end', 'center'],
+    control: { type: 'select' },
+    defaultValue: 'start',
   },
   justify: {
     options: ['start', 'end', 'between'],

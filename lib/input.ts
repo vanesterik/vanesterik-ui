@@ -13,6 +13,7 @@ export const input = cva(
     'p-2',
     'rounded',
     'text-xs',
+    'w-full',
     'focus:outline',
     'focus:outline-offset-2',
     'focus:outline-secondary-500',
