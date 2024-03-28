@@ -30,7 +30,7 @@ export const dropdownListItem = cva([
   'flex',
   'font-mono',
   'font-normal',
-  'gap-x-0.5',
+  'gap-x-1.5',
   'items-center',
   'leading-8',
   'px-2',
