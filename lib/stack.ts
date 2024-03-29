@@ -3,22 +3,29 @@ import { cva } from 'class-variance-authority'
 export const stack = cva(['flex'], {
   variants: {
     direction: {
-      row: ['flex-row', 'gap-x-1.5'],
-      column: ['flex-col', 'gap-y-1.5'],
+      row: ['flex-row', 'w-full'],
+      column: ['flex-col'],
+    },
+    gap: {
+      small: ['gap-1.5'],
+      medium: ['gap-3'],
+      large: ['gap-6'],
     },
     items: {
       start: ['items-start'],
-      end: ['items-end'],
       center: ['items-center'],
+      end: ['items-end'],
     },
     justify: {
       start: ['justify-start'],
+      center: ['justify-center'],
       end: ['justify-end'],
       between: ['justify-between'],
     },
   },
   defaultVariants: {
     direction: 'column',
+    gap: 'small',
     items: 'start',
     justify: 'start',
   },

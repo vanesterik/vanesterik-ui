@@ -22,13 +22,18 @@ Component.argTypes = {
     control: { type: 'radio' },
     defaultValue: 'column',
   },
+  gap: {
+    options: ['small', 'medium', 'large'],
+    control: { type: 'select' },
+    defaultValue: 'small',
+  },
   items: {
-    options: ['start', 'end', 'center'],
+    options: ['start', 'center', 'end'],
     control: { type: 'select' },
     defaultValue: 'start',
   },
   justify: {
-    options: ['start', 'end', 'between'],
+    options: ['start', 'center', 'end', 'between'],
     control: { type: 'select' },
     defaultValue: 'start',
   },
