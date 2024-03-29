@@ -9,7 +9,7 @@ export const Component = () => {
   return (
     <div className={dropdown()}>
       <button
-        className={button({ intent: 'secondary' })}
+        className={button({ variant: 'secondary' })}
         onClick={() => setIsOpen((value) => !value)}
       >
         Dropdown

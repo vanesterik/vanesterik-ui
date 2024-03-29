@@ -6,9 +6,9 @@ import { stack } from '../lib/stack'
 
 const Button = ({
   children,
-  intent,
+  variant,
 }: PropsWithChildren<VariantProps<typeof button>>) => (
-  <button className={button({ intent })}>{children}</button>
+  <button className={button({ variant })}>{children}</button>
 )
 
 export const Set = () => (
@@ -16,7 +16,7 @@ export const Set = () => (
     {['primary', 'secondary', 'ghost'].map((variant) => (
       <Button
         key={variant}
-        intent={variant as VariantProps<typeof button>['intent']}
+        variant={variant as VariantProps<typeof button>['variant']}
       >
         {variant}
       </Button>

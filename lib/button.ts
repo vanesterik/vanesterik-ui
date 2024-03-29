@@ -20,7 +20,7 @@ export const button = cva(
   ],
   {
     variants: {
-      intent: {
+      variant: {
         primary: [
           'bg-black',
           'text-white',
@@ -58,7 +58,7 @@ export const button = cva(
       },
     },
     defaultVariants: {
-      intent: 'primary',
+      variant: 'primary',
     },
   },
 )
