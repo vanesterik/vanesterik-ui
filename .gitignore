@@ -131,3 +131,6 @@ dist
 
 # Ladle build output
 build/
+
+# OSX file system metadata
+.DS_Store
