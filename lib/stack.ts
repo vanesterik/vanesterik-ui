@@ -3,7 +3,7 @@ import { cva } from 'class-variance-authority'
 export const stack = cva(['flex'], {
   variants: {
     direction: {
-      row: ['flex-row', 'w-full'],
+      row: ['flex-row'],
       column: ['flex-col'],
     },
     gap: {

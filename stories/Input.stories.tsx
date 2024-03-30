@@ -11,6 +11,14 @@ export const Input = () => (
   />
 )
 
+export const Select = () => (
+  <select className={cx(input({ element: 'select' }), 'max-w-xs')}>
+    {Array.from(Array(3).keys()).map((index) => (
+      <option key={index}>{`Option ${index}`}</option>
+    ))}
+  </select>
+)
+
 export const Textarea = () => (
   <BaseTextarea
     className={cx(input({ element: 'textarea' }), 'max-w-xs')}

@@ -7,6 +7,7 @@ export const input = cva(
     'text-black',
     'dark:bg-primary-900',
     'dark:text-white',
+    'cursor-pointer',
     'font-mono',
     'font-normal',
     'h-8',
@@ -22,6 +23,14 @@ export const input = cva(
     variants: {
       element: {
         textarea: ['box-border', 'resize-none'],
+        select: [
+          'bg-[length:9px_5px]',
+          'bg-[right_0.5rem_center]',
+          'bg-[url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAACaADAAQAAAABAAAABQAAAADqsnSgAAAAO0lEQVQIHWNgYGBoAOL/OPA9oLgcEINBA5BEV4iiAKIM1UQUBcwwFUD6ABAzArE8EDsA8SMgxgn40WUARckSfXCcprYAAAAASUVORK5CYII=")]',
+          'bg-no-repeat',
+          'text-left',
+          'dark:bg-[url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAACaADAAQAAAABAAAABQAAAADqsnSgAAAALklEQVQIHWP4//9/AxDjAveAEnIMIABkYFOIUABWhakQUwGaQtwKkBTyw9gwGgD1XVypCGnI8AAAAABJRU5ErkJggg==")]',
+        ],
       },
     },
   },
