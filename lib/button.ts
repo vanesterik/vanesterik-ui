@@ -9,6 +9,7 @@ export const button = cva(
     'gap-x-1.5',
     'h-8',
     'items-center',
+    'justify-center',
     'pt-[1px]',
     'px-2',
     'rounded',
