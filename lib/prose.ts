@@ -21,4 +21,6 @@ export const prose = cva([
 
   'marker:text-black',
   'dark:marker:text-white',
+
+  'max-w-none',
 ])
