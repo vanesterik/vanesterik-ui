@@ -1,7 +1,15 @@
-import { cx } from 'class-variance-authority'
+import { VariantProps, cx } from 'class-variance-authority'
 import BaseTextarea from 'react-textarea-autosize'
 
 import { input } from '../lib/input'
+
+export const Error = () => (
+  <input
+    className={cx(input({ variant: 'error' }), 'max-w-xs')}
+    placeholder="Type here"
+    type="text"
+  />
+)
 
 export const Input = () => (
   <input

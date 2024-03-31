@@ -3,9 +3,7 @@ import { cva } from 'class-variance-authority'
 export const input = cva(
   [
     'appearance-none',
-    'bg-primary-100',
     'text-black',
-    'dark:bg-primary-900',
     'dark:text-white',
     'cursor-pointer',
     'font-mono',
@@ -17,12 +15,10 @@ export const input = cva(
     'w-full',
     'focus:outline',
     'focus:outline-offset-2',
-    'focus:outline-secondary-500',
   ],
   {
     variants: {
       element: {
-        textarea: ['box-border', 'resize-none'],
         select: [
           'bg-[length:9px_5px]',
           'bg-[right_0.5rem_center]',
@@ -31,7 +27,19 @@ export const input = cva(
           'text-left',
           'dark:bg-[url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAACaADAAQAAAABAAAABQAAAADqsnSgAAAALklEQVQIHWP4//9/AxDjAveAEnIMIABkYFOIUABWhakQUwGaQtwKkBTyw9gwGgD1XVypCGnI8AAAAABJRU5ErkJggg==")]',
         ],
+        textarea: ['box-border', 'resize-none'],
       },
+      variant: {
+        default: [
+          'bg-primary-100',
+          'dark:bg-primary-900',
+          'focus:outline-secondary-500',
+        ],
+        error: ['bg-red-50', 'dark:bg-red-950', 'focus:outline-red-500'],
+      },
+    },
+    defaultVariants: {
+      variant: 'default',
     },
   },
 )

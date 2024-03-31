@@ -23,9 +23,9 @@ Component.argTypes = {
     defaultValue: 'column',
   },
   gap: {
-    options: ['small', 'medium', 'large'],
+    options: ['sm', 'md', 'lg', 'xl'],
     control: { type: 'select' },
-    defaultValue: 'small',
+    defaultValue: 'sm',
   },
   items: {
     options: ['start', 'center', 'end'],
