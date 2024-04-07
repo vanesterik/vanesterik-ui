@@ -6,15 +6,26 @@ import { stack } from '../lib/stack'
 
 const Button = ({
   children,
+  disabled,
   variant,
-}: PropsWithChildren<VariantProps<typeof button>>) => (
-  <button className={button({ variant })}>{children}</button>
+}: PropsWithChildren<VariantProps<typeof button> & { disabled?: boolean }>) => (
+  <button disabled={disabled} className={button({ variant })}>
+    {children}
+  </button>
 )
 
 export const Set = () => (
+  <div className={stack()}>
+    <Row />
+    <Row disabled />
+  </div>
+)
+
+const Row = ({ disabled }: { disabled?: boolean }) => (
   <div className={stack({ direction: 'row' })}>
     {['primary', 'secondary', 'ghost'].map((variant) => (
       <Button
+        disabled={disabled}
         key={variant}
         variant={variant as VariantProps<typeof button>['variant']}
       >
