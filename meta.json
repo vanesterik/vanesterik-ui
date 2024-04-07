@@ -5,13 +5,23 @@
     "version": 1
   },
   "stories": {
+    "avatar--set": {
+      "name": "Set",
+      "levels": [
+        "Avatar"
+      ],
+      "locStart": 14,
+      "locEnd": 23,
+      "filePath": "stories/Avatar.stories.tsx",
+      "meta": {}
+    },
     "button--set": {
       "name": "Set",
       "levels": [
         "Button"
       ],
-      "locStart": 14,
-      "locEnd": 25,
+      "locStart": 17,
+      "locEnd": 22,
       "filePath": "stories/Button.stories.tsx",
       "meta": {}
     },
@@ -91,27 +101,17 @@
         "Icon"
       ],
       "locStart": 8,
-      "locEnd": 23,
+      "locEnd": 27,
       "filePath": "stories/Icon.stories.tsx",
       "meta": {}
     },
-    "input--input": {
-      "name": "Input",
+    "input--set": {
+      "name": "Set",
       "levels": [
         "Input"
       ],
       "locStart": 7,
-      "locEnd": 13,
-      "filePath": "stories/Input.stories.tsx",
-      "meta": {}
-    },
-    "input--textarea": {
-      "name": "Textarea",
-      "levels": [
-        "Input"
-      ],
-      "locStart": 15,
-      "locEnd": 22,
+      "locEnd": 27,
       "filePath": "stories/Input.stories.tsx",
       "meta": {}
     },
@@ -135,6 +135,26 @@
       "filePath": "stories/Main.stories.tsx",
       "meta": {}
     },
+    "prose--article": {
+      "name": "Article",
+      "levels": [
+        "Prose"
+      ],
+      "locStart": 27,
+      "locEnd": 31,
+      "filePath": "stories/Prose.stories.tsx",
+      "meta": {}
+    },
+    "skeleton--example": {
+      "name": "Example",
+      "levels": [
+        "Skeleton"
+      ],
+      "locStart": 5,
+      "locEnd": 11,
+      "filePath": "stories/Skeleton.stories.tsx",
+      "meta": {}
+    },
     "stack--component": {
       "name": "Component",
       "levels": [
@@ -143,6 +163,16 @@
       "locStart": 8,
       "locEnd": 17,
       "filePath": "stories/Stack.stories.tsx",
+      "meta": {}
+    },
+    "tooltip--component": {
+      "name": "Component",
+      "levels": [
+        "Tooltip"
+      ],
+      "locStart": 3,
+      "locEnd": 7,
+      "filePath": "stories/Tooltip.stories.tsx",
       "meta": {}
     }
   }
