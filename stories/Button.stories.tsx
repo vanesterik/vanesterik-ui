@@ -23,12 +23,8 @@ export const Set = () => (
 
 const Row = ({ disabled }: { disabled?: boolean }) => (
   <div className={stack({ direction: 'row' })}>
-    {['primary', 'secondary', 'ghost'].map((variant) => (
-      <Button
-        disabled={disabled}
-        key={variant}
-        variant={variant as VariantProps<typeof button>['variant']}
-      >
+    {(['primary', 'secondary', 'ghost'] as const).map((variant) => (
+      <Button disabled={disabled} key={variant} variant={variant}>
         {variant}
       </Button>
     ))}

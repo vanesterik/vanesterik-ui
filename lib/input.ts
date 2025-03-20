@@ -22,10 +22,10 @@ export const input = cva(
         select: [
           'bg-[length:9px_5px]',
           'bg-[right_0.5rem_center]',
-          'bg-[url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAACaADAAQAAAABAAAABQAAAADqsnSgAAAAO0lEQVQIHWNgYGBoAOL/OPA9oLgcEINBA5BEV4iiAKIM1UQUBcwwFUD6ABAzArE8EDsA8SMgxgn40WUARckSfXCcprYAAAAASUVORK5CYII=")]',
+          'bg-[url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI0IiB2aWV3Qm94PSIwIDAgOCA0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNOCAwSDBMNCA0TDggMFoiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=")]',
           'bg-no-repeat',
           'text-left',
-          'dark:bg-[url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAACaADAAQAAAABAAAABQAAAADqsnSgAAAALklEQVQIHWP4//9/AxDjAveAEnIMIABkYFOIUABWhakQUwGaQtwKkBTyw9gwGgD1XVypCGnI8AAAAABJRU5ErkJggg==")]',
+          'dark:bg-[url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI0IiB2aWV3Qm94PSIwIDAgOCA0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNOCAwSDBMNCA0TDggMFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=")]',
         ],
         textarea: ['box-border', 'resize-none'],
       },
@@ -35,7 +35,7 @@ export const input = cva(
           'dark:bg-primary-900',
           'focus:outline-secondary-500',
         ],
-        error: ['bg-red-50', 'dark:bg-red-950', 'focus:outline-red-500'],
+        error: ['bg-error-50', 'dark:bg-error-950', 'focus:outline-error-500'],
       },
     },
     defaultVariants: {
